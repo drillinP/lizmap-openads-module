@@ -1,5 +1,5 @@
 # lizmap-openads-module
-[![Tests 🎳](https://github.com/3liz/lizmap-openads-module/actions/workflows/php_lint.yml/badge.svg)](https://github.com/3liz/lizmap-openads-module/actions/workflows/php_lint.yml)
+[![Tests 🎳](https://github.com/3liz/lizmap-openads-module/actions/workflows/php_lint.yml/badge.svg)](https://github.com/3liz/lizmap-openads-module/actions/workflows/ci.yml)
 [![Packagist](https://img.shields.io/packagist/v/lizmap/lizmap-openads-module)](https://packagist.org/packages/lizmap/lizmap-openads-module)
 
 Module [Lizmap](https://www.lizmap.com/) pour liaison avec le logiciel [OpenADS](https://www.atreal.fr/applications/catalogue/logiciel-urbanisme).

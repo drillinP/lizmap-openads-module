@@ -1,0 +1,7 @@
+parameters:
+  scanDirectories:
+    - openads/
+  level: 0
+  ignoreErrors:
+  paths:
+    - openads/
