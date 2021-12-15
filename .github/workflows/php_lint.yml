@@ -1,4 +1,4 @@
-name: Tests 🎳
+name: Lint PHP 🚨
 
 on:
   push:

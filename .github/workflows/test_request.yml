@@ -1,0 +1,28 @@
+name: Tests API 🐍
+
+on:
+  push:
+#    paths:
+#      - '**.php'
+  pull_request:
+#    paths:
+#      - '**.php'
+jobs:
+  requests:
+    name: Requests API
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: tests
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Start containers
+      run: make env && docker-compose -f "docker-compose.yml" up -d
+
+    - name: Install requrements
+      run: sleep 10 && pip install -r ../requirements/tests.txt
+
+    - name: Run pytest
+      run: sleep 10 && cd request_test/ && pytest -s -v
